@@ -50,7 +50,7 @@ var id=0
 function addTripCard(){
    findcrationpopup.setAttribute("id","creationpopup")
    if(cardTitle.value==''){
-   findcrationpopup.style.backgroundColor = 'rgb(210, 149, 8)'
+   // findcrationpopup.style.backgroundColor = 'rgb(210, 149, 8)'
    findcrationpopuph1.innerHTML= 'Please enter Place'
 
       setTimeout(() => {
@@ -102,8 +102,8 @@ cardTitle.value = ''
 noitems.innerHTML= ''
 closeTask()
 
-findcrationpopup.style.backgroundColor = 'rgb(8, 210, 62)'
-   findcrationpopuph1.innerHTML= 'Success - Card Created Successfully'
+// findcrationpopup.style.backgroundColor = 'rgb(8, 210, 62)'
+
 
       setTimeout(() => {
       findcrationpopuph1.innerHTML= ''
@@ -121,7 +121,7 @@ findcrationpopup.style.backgroundColor = 'rgb(8, 210, 62)'
 //  findcrationpopup.setAttribute("id","creationpopup")
 
 //  findcrationpopup.style.backgroundColor = 'rgb(255, 91, 123)'
-//    findcrationpopuph1.innerHTML= 'Card Deleted Successfully'
+
 
 //       setTimeout(() => {
 //       findcrationpopuph1.innerHTML= ''
@@ -170,7 +170,7 @@ addItem.addEventListener('click', function(){
       if(inputIt.value==''){
          findcrationpopup.setAttribute("id","creationpopup")
 
-          findcrationpopup.style.backgroundColor = 'rgb(210, 149, 8)'
+         //  findcrationpopup.style.backgroundColor = 'rgb(210, 149, 8)'
         findcrationpopuph1.innerHTML= 'please enter some text'
 
       setTimeout(() => {
@@ -206,8 +206,8 @@ addItem.addEventListener('click', function(){
 
       findcrationpopup.setAttribute("id","creationpopup")
 
-      findcrationpopup.style.backgroundColor = 'rgb(15, 190, 9) '
-    findcrationpopuph1.innerHTML= 'Task Created Successfully'
+      // findcrationpopup.style.backgroundColor = 'rgb(15, 190, 9) '
+    
 
   setTimeout(() => {
   findcrationpopuph1.innerHTML= ''
@@ -315,8 +315,8 @@ deleteTask.addEventListener('click', function(){
  closeTask()
  findcrationpopup.setAttribute("id","creationpopup")
 
- findcrationpopup.style.backgroundColor = 'rgb(255, 91, 123)'
-   findcrationpopuph1.innerHTML= 'Card Deleted Successfully'
+//  findcrationpopup.style.backgroundColor = 'rgb(255, 91, 123)'
+   
 
       setTimeout(() => {
       findcrationpopuph1.innerHTML= ''
